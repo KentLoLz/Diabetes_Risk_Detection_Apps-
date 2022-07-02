@@ -1,0 +1,21 @@
+{
+    "appName": "kentproject",
+    "roleName": "pinpointLambdaRoled9401d84",
+    "cloudformationPolicyName": "cloudformationPolicyd9401d84",
+    "cloudWatchPolicyName": "cloudWatchPolicyd9401d84",
+    "pinpointPolicyName": "pinpointPolicyd9401d84",
+    "authPolicyName": "pinpoint_amplify_d9401d84",
+    "unauthPolicyName": "pinpoint_amplify_d9401d84",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-kentproject-dev-223152-authRole",
+      "UnauthRoleArn": "arn:aws:iam::342669233742:role/amplify-kentproject-dev-223152-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::342669233742:role/amplify-kentproject-dev-223152-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-kentproject-dev-223152-deployment",
+      "UnauthRoleName": "amplify-kentproject-dev-223152-unauthRole",
+      "StackName": "amplify-kentproject-dev-223152",
+      "StackId": "arn:aws:cloudformation:us-east-1:342669233742:stack/amplify-kentproject-dev-223152/4649fe10-d200-11ec-8689-0a66818d5563",
+      "AmplifyAppId": "d392itecqmz0uo"
+    },
+    "categories": {
+      "auth": {
+        "kentprojectc98dd528": {},
+        "true": {}
+      }
+    }
+  }
+}
